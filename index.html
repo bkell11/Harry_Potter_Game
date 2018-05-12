@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Harry Potter RPG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Harry Potter RPG
+        </h1>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                <h2>Select Your Hero</h2>
+                <div id="hero-selection">
+                </div>
+                <h2>Your Hero</h2>
+                <div id="hero-selected">
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                <h2>Enemies To Attack</h2>
+                <div id="villain-selection">
+                </div>
+                <h2>Fight Section</h2>
+                <div id="attack">
+                    <button type="button" class="btn btn-dark">Attack</button>
+                </div>
+                <p id="fight"></p>
+                <p id="counter-death"></p>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                <h2>Enemy</h2>
+                <div id="enemy">
+                </div>
+                <div id="reset">
+                    <button type="button" class="btn btn-dark">Reset Game</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
